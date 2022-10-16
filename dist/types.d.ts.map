@@ -1,0 +1,1 @@
+{"mappings":"AACA,OAAO,MAAM,iBAAkB,MAAM,GAAG,MAAM,YAE7C,CAAC","sources":["src/src/index.ts","src/index.ts"],"sourcesContent":[null,"// Chunk an array into smaller arrays of a specified size\nexport const isEmpty = (value: string | number) => {\n    return value === null || value === undefined || value === \"\";\n};\n"],"names":[],"version":3,"file":"types.d.ts.map"}

@@ -1,4 +1,4 @@
-import { CONSTANT } from '../assets/const.js'
+import { CONSTANT } from '../assets/const'
 import { isEmpty } from '../checkFormat/format';
 /**
  * get full-width characters to half-width characters map
@@ -12,7 +12,7 @@ export function getZenkakuToHankakuMap() {
 * @param {String} characterToConvert - full-width character to convert
 * @returns {String} converted half-width character
 */
-export function mapToHankaku(characterToConvert) {
+export function mapToHankaku(characterToConvert:string) {
     const zenHanMap = getZenkakuToHankakuMap();
     if (typeof zenHanMap[characterToConvert] === "undefined") {
         return characterToConvert;

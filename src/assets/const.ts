@@ -1,4 +1,11 @@
-export const CONSTANT = Object.freeze({
+interface Constants {
+    COMMON: {
+      FULL_WIDTH_HALF_WIDTH_MAPPING: {
+        [fullWidthChar: string]: string
+      }
+    }
+  }
+export const CONSTANT:Constants = Object.freeze({
     COMMON:{
         FULL_WIDTH_HALF_WIDTH_MAPPING: {
             ァ: "ｧ",
